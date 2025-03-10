@@ -1,0 +1,9 @@
+1. Material Icon Theme
+2. Image preview
+3. Code Spell Checker
+4. Russian - Code Spell Checker
+5. CodeSnap
+6. Live Server
+7. Palenight Theme
+8. Prettier - Code formatter
+9. WakaTime

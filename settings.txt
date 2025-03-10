@@ -1,0 +1,96 @@
+
+1.(Автосохранение)	                       "files.autoSave": "afterDelay",
+2.(Иконки)	                               "workbench.iconTheme": "material-icon-theme",
+3.(Размер шрифта)	                       "editor.fontSize": 17,
+4.(Анимация курсора)                       "editor.cursorBlinking": "expand",
+5.(Плавная анимация курсора)               "editor.cursorSmoothCaretAnimation": "on",
+6.(Ширина курсора)                         "editor.cursorWidth": 3,
+7.(Семейство Шрифта)                       "editor.fontFamily": "JetBrains Mono",
+8.(Активируем лигатуры)                    "editor.fontLigatures": true,
+9.(Скрывает мини-карту)                    "editor.minimap.enabled": false,
+10.(Тема)                                  "workbench.colorTheme": "Palenight Theme",
+11.(Автоматическое форматирование кода)    "editor.formatOnPaste": true,
+12.(Автоматическое форматирование кода     "editor.formatOnSave": true,
+ при сохранении)
+13.(Подсвечивание скобок)                  "editor.guides.bracketPairs": "active",
+14.(Выделение скобок)                      "editor.matchBrackets": "never",
+15.(TAB разворачивает элемент даже если    "emmet.triggerExpansionOnTab": true,
+мы до этого ушли от него)
+16.(Автопереименование тега)               "editor.linkedEditing": true, 
+17.(Для корректной работы CSCheked)        "cSpell.language": "en,ru",
+18.(Размер шрифта терминала)               "terminal.integrated.fontSize": 15,
+19.(Перенос слов)                          "editor.wordWrap": "on",
+20.(Плавный скролл в терминале)            "terminal.integrated.smoothScrolling": true,
+21.(Плавный скролл)                        "workbench.list.smoothScrolling": true,
+22.(Плавный скролл)                        "editor.smoothScrolling": true,
+23.(Компактные папки)                      "explorer.compactFolders": false,
+24.(Отступ сверху)                         "editor.padding.top": 20,
+25.(Скрываем визуальные границы)           "editor.renderIndentGuides": false,
+26.(Отключение приветственного экрана)     "workbench.startupEditor": "none",
+27.(Отключение приветственных клавиш)      "workbench.tips.enabled": false,
+28.(Высота строки)                         "editor.lineHeight": 1.7,
+29.(Высота строк в терминале)              "terminal.integrated.lineHeight": 1.5,
+30.(Использовать терминал по умолчанию)    "terminal.integrated.defaultProfile.windows": "Git Bash",
+31.(Стиль курсора в терминале)             "terminal.integrated.cursorStyle": "line",
+32.(Стиль курсора в терминале)             "terminal.integrated.cursorStyleInactive": "line",
+33.(Анимация курсора в терминале)          "terminal.integrated.cursorBlinking": "blink",
+34.(Толщина курсора в терминале)           "terminal.integrated.cursorWidth": 3,
+35.(Цвет курсора терминала)
+                "workbench.colorCustomizations": {
+                    "terminalCursor.foreground": "#c760a0"  
+  	            }    
+
+
+
+Для корректной работы "Prettier" -
+"editor.defaultFormatter": "esbenp.prettier-vscode",
+"prettier.useTabs": true,
+"prettier.semi": false,
+"prettier.jsxSingleQuote": true,
+"prettier.singleQuote": true,
+"prettier.arrowParens": "avoid",
+
+
+
+Отключаем не нужные Хлебные крошки -
+"breadcrumbs.icons": false,
+"breadcrumbs.showKeys": false,
+"breadcrumbs.showFiles": false,
+"breadcrumbs.symbolPath": "off",
+"breadcrumbs.showArrays": false,
+"breadcrumbs.showBooleans": false,
+"breadcrumbs.showClasses": false,
+"breadcrumbs.showConstants": false,
+"breadcrumbs.showConstructors": false,
+"breadcrumbs.showEnumMembers": false,
+"breadcrumbs.showEvents": false,
+"breadcrumbs.showFields": false,
+"breadcrumbs.showEnums": false,
+"breadcrumbs.showFunctions": false,
+"breadcrumbs.showInterfaces": false,
+"breadcrumbs.showMethods": false,
+"breadcrumbs.showModules": false,
+"breadcrumbs.showNamespaces": false,
+"breadcrumbs.showNull": false,
+"breadcrumbs.showNumbers": false,
+"breadcrumbs.showObjects": false,
+"breadcrumbs.showOperators": false,
+"breadcrumbs.showPackages": false,
+"breadcrumbs.showProperties": false,
+"breadcrumbs.showStrings": false,
+"breadcrumbs.showStructs": false,
+"breadcrumbs.showTypeParameters": false,
+"breadcrumbs.showVariables": false,
+ 
+
+
+ Фикс бага Emmet -
+"emmet.includeLanguages": {
+ "javascript": "javascriptreact",
+ "typescript": "typescriptreact"
+}
+
+
+
+Фикс бага "json ошибка" -
+"http.proxySupport": "fallback", 
