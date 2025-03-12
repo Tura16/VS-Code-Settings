@@ -39,6 +39,7 @@
                 "workbench.colorCustomizations": {
                     "terminalCursor.foreground": "#c760a0"  
   	            }    
+36.(Скрытие иконок в правом верхнем углу)   "workbench.layoutControl.enabled": false,
 
 
 
